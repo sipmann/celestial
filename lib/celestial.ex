@@ -1,0 +1,2 @@
+defmodule Celestial do
+end
