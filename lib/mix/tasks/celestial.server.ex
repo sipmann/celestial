@@ -8,11 +8,11 @@ defmodule Mix.Tasks.Celestial.Server do
   """
 
   def run(_) do
-    Mix.Task.run "app.start"
+    Mix.Task.run("app.start")
     unless iex_running?(), do: :timer.sleep(:infinity)
   end
 
   defp iex_running? do
-    Code.ensure_loaded?(IEx) && IEx.started?
+    Code.ensure_loaded?(IEx) && IEx.started?()
   end
 end

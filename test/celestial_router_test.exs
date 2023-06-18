@@ -16,7 +16,6 @@ defmodule CelestialRouterTest do
   # https://hexdocs.pm/plug/Plug.html#c:init/1
   @opts Celestial.Router.init([])
 
-
   # Create a test with the name "return ok"
   test "return ok" do
     conn = conn(:get, "/")
