@@ -1,4 +1,4 @@
-# Celestial
+# Celestial [![CI Tests](https://github.com/sipmann/celestial/workflows/Elixir%20CI/badge.svg)](https://github.com/sipmann/celestial/actions)
 
 Boilerplate for Elixir API service.
 
