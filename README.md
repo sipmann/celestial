@@ -21,6 +21,10 @@ To run the tests, use the mix test command.
 
 `mix test`
 
+The project also have the `[credo](https://github.com/rrrene/credo)` lib to run static code analysis. To use it just run 
+
+`mix credo`
+
 
 # Base on
 
