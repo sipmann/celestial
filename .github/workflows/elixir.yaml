@@ -100,3 +100,6 @@ jobs:
     # Step: Execute the tests.
     - name: Run tests
       run: mix test
+
+    - name: Run credo
+      run: mix credo
