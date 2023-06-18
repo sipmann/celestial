@@ -26,6 +26,6 @@ The project also have the `[credo](https://github.com/rrrene/credo)` lib to run 
 `mix credo`
 
 
-# Base on
+# Based on
 
 Built while learing/reading the saswat blog [post](https://saswat.dev/build-a-simple-rest-api-with-elixir-part-1/).
