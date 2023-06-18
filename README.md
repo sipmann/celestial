@@ -11,6 +11,22 @@ There are a few runtime configurations available.
 
 ## Running
 
+### Database
+
+First you need to create the database using the following command if you want to use one.
+
+`mix ecto.create`
+
+To create migrations you have the following.
+
+`mix ecto.gen.migration create_users`
+
+Then run the migration.
+
+`mix ecto.migrate`
+
+### Server
+
 To start the server, run the following command.
 
 `mix celestial.server`
