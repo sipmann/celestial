@@ -11,7 +11,8 @@ defmodule Celestial.Application do
     port = Application.get_env(:celestial, :port, 8080)
 
     children = [
-      {Plug.Cowboy, scheme: :http, plug: Celestial.Router, options: [port: port]}
+      {Plug.Cowboy, scheme: :http, plug: Celestial.Router, options: [port: port]},
+      Celestial.Repo
     ]
 
     opts = [strategy: :one_for_one, name: Celestial.Supervisor]

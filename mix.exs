@@ -28,6 +28,7 @@ defmodule Celestial.MixProject do
       {:jason, "~> 1.3"},
 
       # database deps
+      {:ecto_sql, "~> 3.10.1"},
       {:postgrex, "~> 0.17.1"},
 
       # dev deps
