@@ -27,6 +27,9 @@ defmodule Celestial.MixProject do
       {:plug_cowboy, "~> 2.5"},
       {:jason, "~> 1.3"},
 
+      # database deps
+      {:postgrex, "~> 0.17.1"},
+
       # dev deps
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
